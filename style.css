@@ -1,0 +1,100 @@
+.contenedor {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+body{
+    background-image: url("backg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.puntuaciones hr{
+    width: 600px;
+    /**/
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(215,215,215,0.75), rgba(0,0,0,0)); 
+    box-shadow: 0px -2px 4px rgba(136,136,136,0.75);
+    /**/
+}
+
+.titulo {
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+    font-size: 50px;
+    font-family: calibri;
+    color: #E10247;
+    text-shadow: 0 0 0.2em #E10247, 0 0 0.2em #E10247,
+        0 0 0.2em #E10247;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.subtitulo {
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: calibri;
+    color: crimson;
+    text-shadow: 0 0 0.3em #E10247, 0 0 0.5em #E10247,
+        0 0 0.8em #E10247;
+    text-align: center;
+    opacity: 1.0;   
+}
+
+.puntuaciones {
+    color: aliceblue;
+    text-align: center;
+    font-family: calibri;
+    font-size: 30px;
+    text-shadow: 0 0 0.1em black, 0 0 0.1em black,
+        0 0 0.1em black;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #732727;
+	-webkit-box-shadow: 0px 10px 14px -7px #732727;
+	box-shadow: 0px 10px 14px -7px #732727;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b4023d), color-stop(1, #b4023d));
+	background:-moz-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:-webkit-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:-o-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:-ms-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:linear-gradient(to bottom, #b4023d 5%, #b4023d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4023d', endColorstr='#b4023d',GradientType=0);
+	background-color:#b4023d;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:monospace;
+	font-size:14px;
+	font-weight:bold;
+	padding:3px 13px;
+	text-decoration:none;
+	text-shadow:0px 100px 50px #b4023d;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b4023d), color-stop(1, #b4023d));
+	background:-moz-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:-webkit-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:-o-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:-ms-linear-gradient(top, #b4023d 5%, #b4023d 100%);
+	background:linear-gradient(to bottom, #b4023d 5%, #b4023d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4023d', endColorstr='#b4023d',GradientType=0);
+	background-color:#b4023d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
